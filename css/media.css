@@ -1,0 +1,211 @@
+@media(max-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+
+    .mob_menu_btn {
+        display: block;
+    }
+
+    .header__top {
+        flex-direction: column;
+        height: 200px;
+        padding-top: 50px;
+        justify-content: space-between;
+    }
+
+    .header__nav {
+        width: 100%;
+    }
+
+    .header__ul {
+        font-size: 32px;
+        justify-content: space-around;
+    }
+
+    .undLine,
+    .header__nav,
+    .triangles_block,
+    .header__lButton,
+    .header__rButton,
+    .triangles_block {
+        display: none;
+    }
+
+    .header__screamingName {
+        width: 100%;
+    }
+
+    .header__h1 {
+        text-align: center;
+        font-size: 66px;
+    }
+
+    .header__p {
+        width: 200px;
+        margin-bottom: 30px;
+    }
+
+    .header__buttons {
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        width: 0;
+        height: 120px;
+    }
+
+    .main__ourBlog {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .main__p {
+        text-align: center;
+    }
+
+    .main__cardsGrid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__card {
+        width: 100%;
+    }
+
+    .main__ourPricing {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .main__priceCards {
+        flex-direction: column;
+        height: 1900px;
+    }
+
+    .main__team {
+        background-image: linear-gradient(rgba(32, 32, 32, 0.75),
+                rgba(32, 32, 32, 0.75)), url(../img/BackCommand.jpg);
+        height: 644px;
+    }
+
+    .main__ourTEAM {
+        width: 100%;
+    }
+
+    .teamMate1-main,
+    .teamMate2-main,
+    .teamMate3-main,
+    .teamMate4-main,
+    .teamMate5-main {
+        position: static;
+    }
+
+    .main__teamMates {
+        padding: 0 100px;
+    }
+    .footer__blocks {
+        flex-direction: column;
+    }
+    .footer__blocks {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 1350px;
+    }
+    .footer__info {
+        width: 450px;
+    }
+    .footer__sendEmail {
+        width: 650px;
+        padding: 100px 50px;
+    }
+    input, textarea {
+        width: 550px;
+    }
+    .footer__socialItems {
+        display: none;
+    }
+    .footer__blocksSocialMedia {
+        justify-content: center;
+    }
+    .footer__socialMedia {
+        height: 40px;
+    }
+
+}
+
+@media(max-width: 768px) {
+    .main__scores_items {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .main__teamMates {
+        padding: 0 75px;
+        padding: 100px 95px;
+    }
+    input, textarea {
+        width: 350px;
+    }
+    .footer__sendEmail {
+        width: 450px;
+    }
+
+
+}
+
+@media(max-width: 576px) {
+    .header__h1 {
+        text-align: center;
+        font-size: 62px;
+    }
+
+    .describtionCard {
+        font-size: 14px;
+    }
+
+    .arcticleCard::after {
+        display: none;
+    }
+
+    .main__scores_items {
+        transform: scale(0.9);
+    }
+
+    .score_scores {
+        font-size: 24px;
+    }
+
+    .text_score {
+        font-size: 12px;
+    }
+
+    .icon_item_score1,
+    .icon_item_score2,
+    .icon_item_score3,
+    .icon_item_score4,
+    .icon_item_score5 {
+        transform: scale(0.9);
+    }
+    .main__teamMates {
+        padding: 0 30px;
+    }
+    .pmateRed {
+        font-size: 10px;
+    }
+    .pmateGrey {
+        font-size: 8px;
+    }
+    input, textarea {
+        width: 290px;
+    }
+    .footer__info {
+        width: 350px;
+    }
+    .footer__sendEmail {
+        width: 350px;
+        padding: 100px 30px;
+    }
+
+
+}
