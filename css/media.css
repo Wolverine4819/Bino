@@ -190,6 +190,12 @@
     .main__teamMates {
         padding: 0 30px;
     }
+    .item_priceCards-main{
+        width: 100%;
+    }
+    .item_priceCardsTop-main{
+        width: 100%;
+    }
     .pmateRed {
         font-size: 10px;
     }
